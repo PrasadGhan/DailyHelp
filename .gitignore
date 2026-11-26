@@ -1,0 +1,86 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Dependencies
+node_modules/
+vendor/bundle/
+Pods/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.mobileprovision
+
+# JavaScript / React Native / Metro
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.expo/
+.expo-shared/
+.metro-health-check*
+coverage/
+*.tsbuildinfo
+
+# Android
+android/.gradle/
+android/.kotlin/
+android/.idea/
+android/local.properties
+android/app/.cxx/
+android/app/build/
+android/build/
+android/captures/
+*.iml
+.gradle/
+build/
+
+# Android key stores
+*.jks
+*.keystore
+
+# iOS
+ios/build/
+ios/DerivedData/
+ios/Pods/
+ios/*.xcworkspace/
+ios/**/*.xcuserstate
+!ios/DailyHelp.xcworkspace/
+!ios/DailyHelp.xcodeproj/project.xcworkspace/
+
+# Xcode
+*.xcscmblueprint
+*.xccheckout
+xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ruby / Bundler
+.bundle/
+Gemfile.lock
+
+# Temporary, cache, and generated files
+.cache/
+.tmp/
+tmp/
+temp/
+*.pid
+*.seed
+*.pid.lock
+
+# Filesystem artifacts
+._*
+Thumbs.db
+Desktop.ini
